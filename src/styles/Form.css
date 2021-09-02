@@ -1,13 +1,9 @@
 .form{
+  width: 50%;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  margin: auto;
 }
-
-.form__img{
-  display: block;
-}
-.input-submit{
+.form__submit{
   border: none;
-  background-color: #ddd;
-  height: 100%;
 }

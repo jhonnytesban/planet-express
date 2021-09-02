@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import icon from '../assets/email_white.svg'
 import '../styles/Form.css'
 
 const Form = () => {
@@ -19,11 +18,8 @@ const Form = () => {
   return (
     <>
       <form className="form" onSubmit={handleSubmit}>
-        <div className="form-img">
-          <img className="form__img" src={icon} alt="" />
-        </div>
-        <input className="input-email" type="email" placeholder="Escribe tu email" value={text} onChange={(event) => setText(event.target.value)} />
-        <input className="input-submit" type="submit" value="Suscríbete" />
+        <input className="form__email" type="email" placeholder="Escribe tu email" value={text} onChange={(event) => setText(event.target.value)} />
+        <input className="form__submit" type="submit" value="Suscríbete" />
       </form>
     </>
   );
