@@ -1,4 +1,4 @@
-.header{
+.container-logo{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,4 +8,36 @@
 }
 .header__logo{
   width: 7rem;
+}
+
+
+.container-content{
+  /* background-image:linear-gradient(to right, rgba(56, 56, 56, 0.5), rgb(67, 67, 67, 0.5)), url(../assets/Planetx.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: contain; */
+  padding: 1rem .5rem;
+}
+.container__title{
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 0 2rem 0;
+}
+.container__text{
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 800px) {
+  .container-content{
+    padding: 4rem 2.5rem 4rem 2.5rem;
+  }
+  .container__title{
+    font-size: 2.2rem;
+  }
+  .container__text{
+    font-size: 1.5rem;
+  }
 }
