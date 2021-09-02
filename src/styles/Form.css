@@ -1,0 +1,13 @@
+.form{
+  display: flex;
+  align-items: center;
+}
+
+.form__img{
+  display: block;
+}
+.input-submit{
+  border: none;
+  background-color: #ddd;
+  height: 100%;
+}
