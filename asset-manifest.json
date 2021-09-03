@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/planet-express/static/css/main.d393af60.chunk.css",
-    "main.js": "/planet-express/static/js/main.ea2aa315.chunk.js",
-    "main.js.map": "/planet-express/static/js/main.ea2aa315.chunk.js.map",
+    "main.css": "/planet-express/static/css/main.6eedbacd.chunk.css",
+    "main.js": "/planet-express/static/js/main.227edcce.chunk.js",
+    "main.js.map": "/planet-express/static/js/main.227edcce.chunk.js.map",
     "runtime-main.js": "/planet-express/static/js/runtime-main.ba5ffa19.js",
     "runtime-main.js.map": "/planet-express/static/js/runtime-main.ba5ffa19.js.map",
     "static/js/2.42efab78.chunk.js": "/planet-express/static/js/2.42efab78.chunk.js",
@@ -10,15 +10,16 @@
     "static/js/3.6533edf2.chunk.js": "/planet-express/static/js/3.6533edf2.chunk.js",
     "static/js/3.6533edf2.chunk.js.map": "/planet-express/static/js/3.6533edf2.chunk.js.map",
     "index.html": "/planet-express/index.html",
-    "static/css/main.d393af60.chunk.css.map": "/planet-express/static/css/main.d393af60.chunk.css.map",
+    "static/css/main.6eedbacd.chunk.css.map": "/planet-express/static/css/main.6eedbacd.chunk.css.map",
     "static/js/2.42efab78.chunk.js.LICENSE.txt": "/planet-express/static/js/2.42efab78.chunk.js.LICENSE.txt",
+    "static/media/Form.css": "/planet-express/static/media/email_black.a1cb74db.svg",
     "static/media/logo_adobespark.a01e32c5.png": "/planet-express/static/media/logo_adobespark.a01e32c5.png",
-    "static/media/App.css": "/planet-express/static/media/prueba-2.2f49a5c2.jpg"
+    "static/media/Header.css": "/planet-express/static/media/prueba-2.2f49a5c2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ba5ffa19.js",
     "static/js/2.42efab78.chunk.js",
-    "static/css/main.d393af60.chunk.css",
-    "static/js/main.ea2aa315.chunk.js"
+    "static/css/main.6eedbacd.chunk.css",
+    "static/js/main.227edcce.chunk.js"
   ]
 }
