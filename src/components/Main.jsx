@@ -1,15 +1,16 @@
 import React from 'react'
 import '../styles/Main.css'
-import Form from './Form'
+import Price from './Price'
 
 const Main = () => {
   return (
-    <div className="main">
-      <h1 className="main__title">Elige Planet Express para tus envíos Espaciales</h1>
-      <p className="main__text">"¡Nuestro equipo es reemplazable, su paquete no lo es!"</p>
-      <p className="main__text">Suscríbete para recibir notificaciones de ¡Grandes ofertas!</p>
-      <Form />
-    </div>
+    <main className="main">
+      <h2 className="main__subtitle">Los mejores precios y ofertas</h2>
+      <section className="main-section">
+        {/* <h3 className="section__subtitle">Comprueba precios</h3> */}
+        <Price />
+      </section>
+    </main>
   )
 }
 

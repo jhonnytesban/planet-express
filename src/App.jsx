@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
-// import Main from './components/Main'
+import Main from './components/Main'
 import './styles/App.css'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
     <div className="container-header-main">
       <Header />
-      {/* <Main /> */}
+      <Main />
     </div>
     </>
   );
