@@ -17,7 +17,9 @@
 .header__logo{
   width: 8rem;
 }
-
+.container-content{
+  padding: 4rem 1rem 4rem 1rem;
+}
 /* .container-content{
   background-image:linear-gradient(to right, rgba(56, 56, 56, 0.5), rgb(67, 67, 67, 0.5)), url(../assets/Planetx.jpg);
   background-repeat: no-repeat;
