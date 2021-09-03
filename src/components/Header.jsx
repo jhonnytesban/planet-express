@@ -12,7 +12,7 @@ const Header = () => {
         </div>
         <div className="container-content">
           <div className="container-title">
-            <h1 className="container__title">En Planet Express somos specialistas en envíos Espaciales</h1>
+            <h1 className="container__title">En <strong>Planet Express</strong> somos <strong>Especialistas</strong> en envíos Espaciales</h1>
           </div>
           <div className="container-form">
             <p className="container__text">"¡Nuestro equipo es reemplazable, su paquete no lo es!"</p>
