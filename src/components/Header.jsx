@@ -11,10 +11,14 @@ const Header = () => {
           <img className='header__logo' src={Logo} alt="Logo de Planet Express" />
         </div>
         <div className="container-content">
-          <h1 className="container__title">Elige Planet Express para tus envíos Espaciales</h1>
-          <p className="container__text">"¡Nuestro equipo es reemplazable, su paquete no lo es!"</p>
-          <p className="container__text">Suscríbete para recibir notificaciones de ¡Grandes ofertas!</p>
-          <Form />
+          <div className="container-title">
+            <h1 className="container__title">En Planet Express somos specialistas en envíos Espaciales</h1>
+          </div>
+          <div className="container-form">
+            <p className="container__text">"¡Nuestro equipo es reemplazable, su paquete no lo es!"</p>
+            <p className="container__text">Suscríbete para recibir notificaciones de ¡Grandes ofertas!</p>
+            <Form />
+          </div>
         </div>
       </header>
     </>
