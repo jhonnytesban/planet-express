@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/planet-express/static/css/main.7c48a900.chunk.css",
+    "main.css": "/planet-express/static/css/main.8abb1605.chunk.css",
     "main.js": "/planet-express/static/js/main.f68b4cda.chunk.js",
     "main.js.map": "/planet-express/static/js/main.f68b4cda.chunk.js.map",
     "runtime-main.js": "/planet-express/static/js/runtime-main.43a74b14.js",
@@ -10,7 +10,7 @@
     "static/js/3.c7e15117.chunk.js": "/planet-express/static/js/3.c7e15117.chunk.js",
     "static/js/3.c7e15117.chunk.js.map": "/planet-express/static/js/3.c7e15117.chunk.js.map",
     "index.html": "/planet-express/index.html",
-    "static/css/main.7c48a900.chunk.css.map": "/planet-express/static/css/main.7c48a900.chunk.css.map",
+    "static/css/main.8abb1605.chunk.css.map": "/planet-express/static/css/main.8abb1605.chunk.css.map",
     "static/js/2.4d85096c.chunk.js.LICENSE.txt": "/planet-express/static/js/2.4d85096c.chunk.js.LICENSE.txt",
     "static/media/Form.css": "/planet-express/static/media/email_black.a1cb74db.svg",
     "static/media/Main.css": "/planet-express/static/media/prueba-1.559b444a.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.43a74b14.js",
     "static/js/2.4d85096c.chunk.js",
-    "static/css/main.7c48a900.chunk.css",
+    "static/css/main.8abb1605.chunk.css",
     "static/js/main.f68b4cda.chunk.js"
   ]
 }
