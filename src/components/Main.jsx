@@ -1,14 +1,20 @@
 import React from 'react'
 import '../styles/Main.css'
-import Countdown from './Countdown'
+// import Countdown from './Countdown'
+import Offer from './Offer'
 import Price from './Price'
+import eternium from '../assets/planet-eternium.jpg'
+import chapek from '../assets/planet-chapek.jpg'
+import amphibios from '../assets/planet-amphibios.jpg'
 
 const Main = () => {
   return (
     <main className="main">
-      <section className="main-section">
-        <h2 className="main__subtitle">Lass mejores ofertas</h2>
-        <Countdown />
+        <h2 className="main__subtitle">Las mejores ofertas</h2>
+      <section className="main-offers">
+        <Offer initialState='7' img={eternium}/>
+        <Offer initialState='8' img={chapek}/>
+        <Offer initialState='10' img={amphibios}/>
       </section>
       <section>
         <Price />
