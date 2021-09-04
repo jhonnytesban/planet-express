@@ -12,9 +12,9 @@ const Main = () => {
     <main className="main">
         <h2 className="main__subtitle">Las mejores ofertas</h2>
       <section className="main-offers">
-        <Offer initialState='7' img={eternium}/>
-        <Offer initialState='8' img={chapek}/>
-        <Offer initialState='10' img={amphibios}/>
+        <Offer initialState='7' img={eternium} name='Eternium'/>
+        <Offer initialState='8' img={chapek} name='Chapek'/>
+        <Offer initialState='10' img={amphibios} name='Amphibios'/>
       </section>
       <section>
         <Price />

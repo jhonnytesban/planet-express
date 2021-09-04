@@ -4,7 +4,7 @@ import { useCountDown } from '../hooks/useCountDown'
 import '../styles/Offers.css'
 
 
-const Offer = ({initialState, img}) => {
+const Offer = ({initialState, img, name}) => {
   const { timeDays, timeHours, timeMinutes, timeSeconds } = useCountDown(initialState)
   return (
     <>
@@ -13,7 +13,7 @@ const Offer = ({initialState, img}) => {
           <img src={img} alt="" className="offers__img" />
         </div>
         <div className="offers-content">
-          <h3 className="offers__title">Envíos a Planet Eternium</h3>
+          <h3 className="offers__title">Envíos a Planet {name}</h3>
           <p className="offers__text">
             Envios a <strong>¡MITAD DE PRECIO!</strong>, no dudes en aprovechar la oferta.
           </p>

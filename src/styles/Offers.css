@@ -1,5 +1,9 @@
 .article-offers{
   margin-bottom: 2rem;
+  background-color: #fff;
+  box-shadow: 0 5px 5px gray;
+  border-radius: 0 0 10px 10px;
+  transition: transform .3s, box-shadow .3s;
 }
 .offers__img{
   display: block;
@@ -15,4 +19,12 @@
 }
 .time{
   text-align: center;
+}
+@media screen and (min-width: 800px) {
+  .article-offers:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 10px gray;
+    cursor: pointer;
+    transition: transform .5s, box-shadow .5s;
+  }
 }
