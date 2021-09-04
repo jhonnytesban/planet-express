@@ -1,15 +1,25 @@
-.main{
+/* .main{
   background-color: #ddd;
   background-image: url(../assets/prueba-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 4rem 1rem;
+} */
+.main-container{
+  background-color: #ddd;
+  background-image: url(../assets/prueba-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
 }
 .main__subtitle{
-  text-align: center;
-  font-size: 2rem;
+  color: #fff;
   font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 2.2rem;
   margin: 0 0 2.5rem 0;
 }
 .main-offers{
@@ -21,7 +31,10 @@
 }
 
 @media screen and (min-width: 800px) {
-  .main{
+  /* .main{
+  } */
+  .main-container{
     padding: 5rem 8rem;
+
   }
 }
