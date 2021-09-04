@@ -28,3 +28,9 @@
 .form__result{
   margin-top: 0;
 }
+
+@media screen and (min-width: 800px) {
+  .main-form{
+    width: 40%;
+  }
+}

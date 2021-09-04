@@ -17,7 +17,7 @@ const Offer = ({initialState, img, name}) => {
           <p className="offers__text">
             Envios a <strong>¡MITAD DE PRECIO!</strong>, no dudes en aprovechar la oferta.
           </p>
-          <p className="offers__text">La oferta acaba en: </p>
+          <p className="offers__text">La <strong>OFERTA</strong> acaba en: </p>
           <div className="offers-count">
             <p className="time">{timeDays}d :{timeHours}h :{timeMinutes}m :{timeSeconds}s</p>
             {/* <p className="days">{timeDays}</p>
