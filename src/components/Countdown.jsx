@@ -47,7 +47,7 @@ const Countdown = () => {
         {/* <h3 className="article__title">Y las mejores ofertas</h3> */}
         <div className="container-oferta">
           <img className="oferta__img" src={oferta} alt="oferta" />
-          <p className="oferta__time" >{timeDays} : {timeHours} : {timeMinutes} : {timeSeconds}</p>
+          <p className="oferta__time" >{timeDays} D : {timeHours} H : {timeMinutes} M : {timeSeconds} S</p>
         </div>
         {/* <p>Dias{timeDays} : Horas{timeHours} : Minutos{timeMinutes} : Segundos{timeSeconds}</p> */}
       </article>

@@ -6,8 +6,8 @@ import Price from './Price'
 const Main = () => {
   return (
     <main className="main">
-      <h2 className="main__subtitle">Lass mejores ofertas</h2>
       <section className="main-section">
+        <h2 className="main__subtitle">Lass mejores ofertas</h2>
         <Countdown />
       </section>
       <section>
