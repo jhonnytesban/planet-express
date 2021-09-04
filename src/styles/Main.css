@@ -14,9 +14,6 @@
   background-attachment: fixed;
   padding: 4rem 1rem;
 }
-.section-employees{
-  padding: 4rem 1rem;
-}
 .main__subtitle{
   color: #fff;
   font-family: 'Josefin Sans', sans-serif;
@@ -32,12 +29,23 @@
   gap: 1.8rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
-
+.section-employees{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(../assets/empleados-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 4rem 1rem;
+}
 @media screen and (min-width: 800px) {
   /* .main{
   } */
   .main-container{
     padding: 5rem 8rem;
-
+    
+  }
+  .section-employees{
+    padding: 8rem 1rem;
+    background-attachment: fixed;
   }
 }

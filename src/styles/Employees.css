@@ -1,4 +1,37 @@
 .employees__title{
-  margin-top: 0;
+  display: block;
+  font-size: 2rem;
   text-align: center;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 4rem;
+}
+.employees{
+  display: grid;
+  /* margin: auto; */
+  /* justify-items: center; */
+  gap: 1.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-auto-rows: 24rem;
+  
+}
+.container-btn{
+  position: relative;
+}
+.btn-next{
+  position: absolute;
+  right: 20%;
+}
+.btn-back{
+  position: absolute;
+  left: 20%;
+}
+
+@media screen and (min-width: 800px) {
+  .btn-next{
+    right: 35%;
+  }
+  .btn-back{
+    left: 35%;
+  }
 }
