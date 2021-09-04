@@ -12,7 +12,10 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  
+  padding: 4rem 1rem;
+}
+.section-employees{
+  padding: 4rem 1rem;
 }
 .main__subtitle{
   color: #fff;

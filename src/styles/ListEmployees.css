@@ -1,0 +1,8 @@
+.employees__img{
+  width: 100%;
+}
+.content__title,
+.content__text,
+.content__age{
+  text-align: center;
+}

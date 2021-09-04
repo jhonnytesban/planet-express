@@ -22,7 +22,9 @@ const Main = () => {
           <Price />
         </section>
       </div>
-      <Employees />
+      <div className="section-employees">
+        <Employees />
+      </div>
     </main>
   );
 };

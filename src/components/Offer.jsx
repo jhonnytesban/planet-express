@@ -9,9 +9,9 @@ const Offer = ({initialState, img, name}) => {
   return (
     <>
       <article className="article-offers">
-        <div className="container-img-offers">
+        {/* <div className="container-img-offers"> */}
           <img src={img} alt="" className="offers__img" />
-        </div>
+        {/* </div> */}
         <div className="offers-content">
           <h3 className="offers__title">Envíos a Planet {name}</h3>
           <p className="offers__text">
