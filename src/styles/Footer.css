@@ -1,0 +1,29 @@
+.footer{
+  background-color: rgb(36, 36, 36);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.footer__logo{
+  width: 4rem;
+  margin-top: 1rem;
+}
+.footer-icons{
+  margin-top: 1rem; 
+}
+.icon{
+  width: 1.4rem;
+  margin-right: .5rem;
+}
+.footer__text{
+  font-size: 1rem;
+  color: #fff;
+}
+
+@media screen and (min-width: 800px) {
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 5rem;
+  }
+}
