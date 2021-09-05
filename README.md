@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Prueba técnica Landing Pages: Planet Express
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Iniciar proyecto
 
-## Available Scripts
+Para iniciar el proyecto solo debemos de clonar el repositorio y ejecutar el siguiente comando: 
+  * **npm start**
 
-In the project directory, you can run:
+Y arrancará el servidor de desarrollo.
 
-### `npm start`
+## Despliege de la landing pages
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+La landing pages está desplegada en el proveedor de páginas estáticas github pages.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Link para visitar la langing pages: [Planet Express](https://jhonnytesban.github.io/planet-express/)
 
-### `npm test`
+## Tecnologías usadas para realizar la prueba técnica:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * React.js | hooks
+  * Fetch para la llamada a la API de Futurama
+  * CSS (sin frameworks)
+  * VS Code como editor de código
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Apartados completados de la prueba
+  * <img src="./src/assets/check.png" width="15px"/> Cuenta regresiva de las ofertas
+  *  <img src="./src/assets/check.png" width="15px"/> Suscripción con validación de email
+  * <img src="./src/assets/check.png" width="15px"/> Calculadora de precios de paquetes y peso
+  *  <img src="./src/assets/check.png" width="15px"/> Landing totalmente responsive
+  *  <img src="./src/assets/check.png" width="15px"/> Llamada a la API para mostrar los empleados de la empresa
