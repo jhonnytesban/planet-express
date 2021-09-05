@@ -1,18 +1,17 @@
-import { useState ,useEffect} from 'react'
+import { useState, useEffect } from "react";
 
 export const useEmployees = () => {
-
   const [characters, setCharacters] = useState([]);
   const [offset, setOffset] = useState(0);
 
   const [sortCharacter, setSortCharacter] = useState([]);
 
   const handleOffsetNext = () => {
-    setOffset(number => number + 5)
-  }
+    setOffset((number) => number + 5);
+  };
   const handleOffsetBack = () => {
-    setOffset(number => number - 5)
-  }
+    setOffset((number) => number - 5);
+  };
 
   useEffect(() => {
     const fetching = async () => {
@@ -22,13 +21,13 @@ export const useEmployees = () => {
       const data = await res.json();
       setCharacters(data);
     };
-    if(characters.length === 0) {
+    if (characters.length === 0) {
       fetching();
     } else {
-      let characterOffset = characters.slice(offset, offset + 5)
+      let characterOffset = characters.slice(offset, offset + 5);
       setSortCharacter(characterOffset);
     }
   }, [characters, offset]);
 
-  return {sortCharacter, handleOffsetNext, handleOffsetBack ,offset}
-}
+  return { sortCharacter, handleOffsetNext, handleOffsetBack, offset };
+};

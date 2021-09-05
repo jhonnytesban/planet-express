@@ -1,5 +1,5 @@
-import React from 'react'
-import '../styles/ListEmployees.css'
+import React from "react";
+import "../styles/ListEmployees.css";
 
 const ListEmployees = ({ name, img, specie, age }) => {
   return (
@@ -7,11 +7,15 @@ const ListEmployees = ({ name, img, specie, age }) => {
       <img src={img} alt="" className="employees__img" />
       <div className="employees-content">
         <h3 className="content__title">Nombre: {name}</h3>
-        <p className="content__text">Especie: {specie === 'Human' ? 'Humano' : 'No humano'}</p>
-        <p className="content__age">Edad: {age === 'Unknown' ? 'No registrada' : age + ' años'}</p>
+        <p className="content__text">
+          Especie: {specie === "Human" ? "Humano" : "No humano"}
+        </p>
+        <p className="content__age">
+          Edad: {age === "Unknown" ? "No registrada" : age + " años"}
+        </p>
       </div>
     </article>
-  )
-}
+  );
+};
 
-export default ListEmployees
+export default ListEmployees;

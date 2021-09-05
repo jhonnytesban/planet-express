@@ -3,7 +3,6 @@
   background-color: #fff;
   box-shadow: 0 5px 5px gray;
   border-radius: 0 0 10px 10px;
-  /* transform: translateY(1) */
   transition: transform .3s, box-shadow .3s;
 }
 .employees__img{

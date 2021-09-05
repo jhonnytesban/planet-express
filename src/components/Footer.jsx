@@ -1,10 +1,10 @@
-import React from 'react'
-import logo from '../assets/logo_adobespark.png'
-import facebook from '../assets/facebook.png'
-import twitter from '../assets/twitter.png'
-import instagram from '../assets/instagram.png'
-import linkedin from '../assets/linkedin.png'
-import '../styles/Footer.css'
+import React from "react";
+import logo from "../assets/logo_adobespark.png";
+import facebook from "../assets/facebook.png";
+import twitter from "../assets/twitter.png";
+import instagram from "../assets/instagram.png";
+import linkedin from "../assets/linkedin.png";
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (
@@ -16,9 +16,11 @@ const Footer = () => {
         <img className="icon" src={instagram} alt="instagram" />
         <img className="icon" src={linkedin} alt="linkedin" />
       </div>
-      <p className="footer__text">La mejor empresa de envios interplanetarios</p>
+      <p className="footer__text">
+        La mejor empresa de envios interplanetarios
+      </p>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

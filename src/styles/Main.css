@@ -3,7 +3,6 @@
   background-image: url(../assets/prueba-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-attachment: fixed; */
   padding: 4rem 1rem;
 }
 .main__subtitle{
@@ -35,6 +34,5 @@
   }
   .section-employees{
     padding: 8rem 1rem;
-    /* background-attachment: fixed; */
   }
 }

@@ -8,12 +8,9 @@
 }
 .employees{
   display: grid;
-  /* margin: auto; */
-  /* justify-items: center; */
   gap: 1.8rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   grid-auto-rows: 24rem;
-  
 }
 .container-btn{
   position: relative;
@@ -30,8 +27,12 @@
   left: 20%;
 }
 
-
 @media screen and (min-width: 800px) {
+  .btn-next:hover,
+  .btn-back:hover{
+    cursor: pointer;
+    background-color: rgba(136, 136, 136, 0.5);
+  }
   .btn-next{
     right: 35%;
   }
