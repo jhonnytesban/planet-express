@@ -1,8 +1,7 @@
 import React from "react";
 import "../styles/Main.css";
-// import Countdown from './Countdown'
 import Offer from "./Offer";
-import Price from "./Price";
+import Calculator from "./Calculator";
 import eternium from "../assets/planet-eternium.jpg";
 import chapek from "../assets/planet-chapek.jpg";
 import amphibios from "../assets/planet-amphibios.jpg";
@@ -12,14 +11,14 @@ const Main = () => {
   return (
     <main className="main">
       <div className="main-container">
-        <h2 className="main__subtitle">Las mejores ofertas</h2>
+        <h2 className="main__title">Las Mejores Ofertas de la Galaxia</h2>
         <section className="main-offers">
           <Offer initialState="7" img={eternium} name="Eternium" />
           <Offer initialState="8" img={chapek} name="Chapek" />
           <Offer initialState="10" img={amphibios} name="Amphibios" />
         </section>
         <section>
-          <Price />
+          <Calculator />
         </section>
       </div>
       <div className="section-employees">

@@ -1,24 +1,25 @@
 .main-container{
   background-color: #ddd;
-  background-image: url(../assets/universo.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(../assets/universo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  padding: 4rem 1rem;
+  padding: 5rem 1rem;
 }
-.main__subtitle{
+.main__title{
   color: #fff;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   text-align: center;
   font-size: 2.2rem;
-  margin: 0 0 2.5rem 0;
+  margin: 0 0 4rem 0;
 }
 .main-offers{
   display: grid;
   margin: auto;
   gap: 1.8rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  margin-bottom: 4rem;
 }
 .section-employees{
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(../assets/empleados-3.jpg);

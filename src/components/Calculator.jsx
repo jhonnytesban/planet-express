@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "../styles/Price.css";
+import "../styles/Calculator.css";
 
-const Price = () => {
+const Calculator = () => {
   const [prices, setPrices] = useState({ packages: "", weight: "" });
 
   const [result, setResult] = useState();
@@ -24,6 +24,7 @@ const Price = () => {
     }
     setPrices({ packages: "", weight: "" });
   };
+  
   return (
     <>
       <form className="main-form" onSubmit={handleSubmit}>
@@ -54,4 +55,4 @@ const Price = () => {
   );
 };
 
-export default Price;
+export default Calculator;
