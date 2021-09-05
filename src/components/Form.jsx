@@ -34,7 +34,7 @@ const Form = () => {
           value={text}
           onChange={(event) => setText(event.target.value)}
         />
-        <input className="form__submit" type="submit" value={isSuscribed ? 'Suscrito' : 'Suscríbete'} />
+        <input className="form__submit" type="submit" disabled={isSuscribed} value={isSuscribed ? 'Suscrito' : 'Suscríbete'} />
         {isValidator && <p className="validate"><span><img className="warning" src={warning} alt="" /></span> El email está mal escrito</p>}
       </form>
     </>

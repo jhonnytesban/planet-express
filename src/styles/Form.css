@@ -24,9 +24,10 @@
 }
 .form__submit{
   height: 100%;
-  border: none;
+  font-size: 1rem;
   background-color: seagreen;
   color: #ddd;
+  border: none;
   cursor: pointer;
   border-radius: 0 5px 5px 0;
 }

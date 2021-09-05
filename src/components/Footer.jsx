@@ -11,10 +11,18 @@ const Footer = () => {
     <footer className="footer">
       <img className="footer__logo" src={logo} alt="" />
       <div className="footer-icons">
-        <img className="icon" src={facebook} alt="facebook" />
-        <img className="icon" src={twitter} alt="twitter" />
-        <img className="icon" src={instagram} alt="instagram" />
-        <img className="icon" src={linkedin} alt="linkedin" />
+        <a href="https://facebook.com" className="footer__link">
+          <img className="icon" src={facebook} alt="facebook" />
+        </a>
+        <a href="https://twitter.com" className="footer__link">
+          <img className="icon" src={twitter} alt="twitter" />
+        </a>
+        <a href="https://instagram.com" className="footer__link">
+          <img className="icon" src={instagram} alt="instagram" />
+        </a>
+        <a href="https://linkedin.com" className="footer__link">
+          <img className="icon" src={linkedin} alt="linkedin" />
+        </a>
       </div>
       <p className="footer__text">
         La mejor empresa de envios interplanetarios

@@ -22,12 +22,15 @@
   outline: none;
   border-radius: 5px;
   padding: .4rem 0 .4rem .5rem;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   box-sizing: border-box;
 }
 .calculate{
   display: block;
   margin-bottom: 1.5rem;
+  font-size: 1rem;
+  background-color: seagreen;
+  color: #ddd;
 }
 .form__result{
   color: #fff;
@@ -41,6 +44,6 @@
   }
   .calculate:hover{
     cursor: pointer;
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(34, 105, 65);
   }
 }

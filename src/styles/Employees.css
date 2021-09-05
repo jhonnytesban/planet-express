@@ -5,7 +5,7 @@
   text-align: center;
   color: #fff;
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 8rem;
 }
 .employees{
   display: grid;
@@ -18,8 +18,10 @@
 }
 .btn-next,
 .btn-back{
+  width: 4rem;
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.5);
+  top: 2rem;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .btn-next{
   right: 20%;
