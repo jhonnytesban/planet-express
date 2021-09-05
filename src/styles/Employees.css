@@ -18,14 +18,18 @@
 .container-btn{
   position: relative;
 }
-.btn-next{
+.btn-next,
+.btn-back{
   position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.btn-next{
   right: 20%;
 }
 .btn-back{
-  position: absolute;
   left: 20%;
 }
+
 
 @media screen and (min-width: 800px) {
   .btn-next{

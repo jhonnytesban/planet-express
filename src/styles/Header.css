@@ -2,7 +2,7 @@
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(../assets/prueba-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .container-logo{
@@ -21,15 +21,6 @@
 .container-content{
   padding: 4rem 1rem 4rem 1rem;
 }
-/* .container-content{
-  background-image:linear-gradient(to right, rgba(56, 56, 56, 0.5), rgb(67, 67, 67, 0.5)), url(../assets/Planetx.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  object-fit: contain;
-   padding: 1rem .5rem;
-} */
-
-
 
 .container__title{
   color: #fff;
@@ -52,27 +43,15 @@
 @media screen and (min-width: 900px) {
   .header{
     background-position: 0% 20%;
+    background-attachment: fixed;
   }
   .container-content{
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     padding: 5rem 2.5rem 5rem 2.5rem;
   }
-  /* .container-title{
-    width: 100%;
-    padding: 4rem;
-    box-sizing: border-box;
-  } */
   .container__title{
     font-size: 2.8rem;
     padding: 0 8rem 3.5rem 8rem;
   }
-  /* .container-form{
-    width: 100%;
-    padding: 4rem;
-    box-sizing: border-box;
-  } */
   .container__text{
     font-size: 1.8rem;
     margin-bottom: 2.5rem;

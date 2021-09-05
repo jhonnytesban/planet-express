@@ -1,6 +1,8 @@
 import React from "react";
 import { useEmployees } from "../hooks/useEmployees";
 import ListEmployees from "./ListEmployees";
+import btnNext from "../assets/next.svg";
+import btnBack from "../assets/back.svg";
 import "../styles/Employees.css";
 
 const Employees = () => {
@@ -26,8 +28,16 @@ const Employees = () => {
         )}
       </section>
       <div className="container-btn">
-        {offset <= 10 && <button className="btn-next" onClick={handleOffsetNext}>Siguiente</button>}
-        {offset >= 5 && <button className="btn-back" onClick={handleOffsetBack}>Atrás</button>}
+        {offset <= 10 && (
+          <button className="btn-next" onClick={handleOffsetNext}>
+            <img src={btnNext} alt="" className="btn__img" />
+          </button>
+        )}
+        {offset >= 5 && (
+          <button className="btn-back" onClick={handleOffsetBack}>
+            <img src={btnBack} alt="" className="btn__img" />
+          </button>
+        )}
       </div>
     </>
   );
