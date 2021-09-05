@@ -6,8 +6,7 @@ import btnBack from "../assets/back.svg";
 import "../styles/Employees.css";
 
 const Employees = () => {
-  const { sortCharacter, offset, handleOffsetNext, handleOffsetBack } =
-    useEmployees();
+  const { sortCharacter, offset, handleOffsetNext, handleOffsetBack } = useEmployees();
 
   return (
     <>
