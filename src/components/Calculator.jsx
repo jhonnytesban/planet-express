@@ -20,7 +20,7 @@ const Calculator = () => {
     } else if (prices.packages < 0 || prices.weight < 0) {
       alert("No valen valores negativos");
     } else {
-      setResult(prices.packages + prices.weight);
+      setResult(prices.packages * prices.weight);
     }
     setPrices({ packages: "", weight: "" });
   };

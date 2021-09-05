@@ -10,6 +10,8 @@
 }
 .form__subtitle{
   color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
   margin-top: 0;
 }
 .input-package,
@@ -25,10 +27,12 @@
 }
 .calculate{
   display: block;
+  margin-bottom: 1.5rem;
 }
 .form__result{
-  margin-top: 0;
   color: #fff;
+  font-size: 1.4rem;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 900px) {
