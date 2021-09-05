@@ -2,6 +2,7 @@
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),url(../assets/prueba-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .container-logo{
@@ -41,7 +42,6 @@
 @media screen and (min-width: 900px) {
   .header{
     background-position: 0% 20%;
-    background-attachment: fixed;
   }
   .container-content{
     padding: 5rem 2.5rem 5rem 2.5rem;

@@ -28,6 +28,7 @@
 }
 .form__result{
   margin-top: 0;
+  color: #fff;
 }
 
 @media screen and (min-width: 800px) {
