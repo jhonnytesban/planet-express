@@ -13,9 +13,9 @@ const Main = () => {
       <div className="main-container">
         <h2 className="main__title">Las Mejores Ofertas de la Galaxia</h2>
         <section className="main-offers">
-          <Offer initialState="7" img={eternium} name="Eternium" />
-          <Offer initialState="8" img={chapek} name="Chapek" />
-          <Offer initialState="10" img={amphibios} name="Amphibios" />
+          <Offer initialState="20" img={eternium} name="Eternium" />
+          <Offer initialState="22" img={chapek} name="Chapek" />
+          <Offer initialState="18" img={amphibios} name="Amphibios" />
         </section>
         <section>
           <Calculator />
